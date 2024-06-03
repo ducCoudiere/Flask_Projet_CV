@@ -18,6 +18,10 @@ def resume_2():
 def resume_3():
     return render_template("resume_3.html")
 
+@app.route('/resume_4')
+def resume_4():
+    return render_template("resume_4.html")
+
 @app.route('/resume_template')
 def resume_template():
     return render_template("resume_template.html")
