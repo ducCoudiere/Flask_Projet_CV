@@ -26,6 +26,10 @@ def resume_4():
 def resume_5():
     return render_template("resume_5.html")
 
+@app.route('/resume_6')
+def resume_6():
+    return render_template("resume_6.html")
+
 @app.route('/resume_template')
 def resume_template():
     return render_template("resume_template.html")
