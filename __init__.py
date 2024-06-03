@@ -22,13 +22,13 @@ def resume_3():
 def resume_4():
     return render_template("resume_4.html")
 
+@app.route('/resume_5')
+def resume_5():
+    return render_template("resume_5.html")
+
 @app.route('/resume_template')
 def resume_template():
     return render_template("resume_template.html")
-
-@app.route('/resume_D')
-def resume_D():
-    return render_template("resume_D.html")
 
 if(__name__ == "__main__"):
     app.run()
